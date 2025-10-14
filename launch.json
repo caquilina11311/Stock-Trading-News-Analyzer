@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run FastAPI App",
+        "type": "python",
+        "request": "launch",
+        "module": "uvicorn",
+        "args": [
+          "connect_backend:app",
+          "--reload",
+          "--port",
+          "8000"
+        ],
+        "jinja": true
+      }
+    ]
+  }
